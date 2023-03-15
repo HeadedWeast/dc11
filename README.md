@@ -11,7 +11,7 @@ docker run -e apikey=INSERT-ELEVENLABS-API-KEY -e DISCORDBOTKEY=INSERT-DISCORD-B
 
 If you are running outside of a docker container, you will need to install the following dependencies:
 ```
-pip install discord requests PyNaCl tempfile json os asyncio
+pip install discord requests PyNaCl json os asyncio
 ```
 You will also need to set your environment variables with your API keys. Doing so is dependent upon your system environment, but these are what you will need to set:
 ```
